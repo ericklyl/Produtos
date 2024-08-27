@@ -1,0 +1,148 @@
+/* ProductDetails.css */
+
+/* Estilo geral do contêiner de detalhes do produto */
+.product-details {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #5d99c7; /* Cor de fundo similar ao estilo da página de navegação */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FFF; /* Texto branco para contraste */
+  }
+  
+  /* Estilo da imagem do produto */
+  .product-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo do título do produto */
+  .product-details h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #FFF; /* Título branco */
+  }
+  
+  /* Estilo da descrição do produto */
+  .product-details p {
+    font-size: 1rem;
+    color: #e0e0e0; /* Texto mais claro para melhor leitura */
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para o preço do produto */
+  .product-details .price {
+    font-size: 1.5rem;
+    color: #FFF; /* Preço em branco */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Contêiner para os botões */
+  .product-details .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Estilo dos botões */
+  .product-details .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilo do botão primário */
+  .product-details .button.primary {
+    background-color: #007bff; /* Azul primário */
+    color: #FFF; /* Texto branco */
+  }
+  
+  /* Estilo do botão secundário */
+  .product-details .button.secondary {
+    background-color: #6c757d; /* Cinza escuro */
+    color: #FFF; /* Texto branco */
+  }
+  
+  /* Estilo para o botão de navegação anterior e próximo */
+  .previous, .next {
+    border: solid 1px #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    text-align: center;
+  }
+  
+  .previous {
+    border-right: solid 1px #FFF;
+    font-size: 4px;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    width: 150px;
+  }
+  
+  .next {
+    border-left: solid 1px #FFF;
+    font-size: 4px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    width: 150px;
+  }
+  
+  /* Estilo da navegação (paginamento) */
+  .pagination {
+    align-items: center;
+    background-color: #5d99c7; /* Cor de fundo similar ao estilo da página de detalhes do produto */
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    width: 100%;
+  }
+  
+  .pagination-page {
+    font-weight: 700;
+    color: #FFF; /* Texto branco */
+  }
+  
+  .item {
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+  }
+  
+  .disabled-page {
+    color: #808e9b; /* Cor para páginas desativadas */
+  }
+  
+  .active {
+    border: solid 1px #FFF;
+    border-radius: 5px;
+    color: #FFF; /* Texto branco */
+  }
+  
+  .break-me {
+    /* Se precisar de um estilo específico para divisores ou quebra de páginas */
+  }
+  
